@@ -32,7 +32,7 @@ curl -s $(URL) -o gostatic
 
 ## Quick Start
 
-Run `gostatic -i my-site` to generate basic site in directory `name`. It will
+Run `gostatic -i my-site` to generate basic site in directory `my-site`. It will
 have a basic `config` file, which you should edit to put relevant variables at
 the top - it also contains description of how files in your `src` directory are
 treated.
@@ -101,11 +101,9 @@ change).
 
 ## External resources
 
- - Jack Pearkes wrote [Heroku buildpack][] for gostatic and an
-   [article about it][].
+ - Jack Pearkes made a [Heroku buildpack][] for gostatic.
 
 [Heroku buildpack]: https://github.com/pearkes/heroku-buildpack-gostatic
-[article about it]: http://pretengineer.com/post/gostatic-buildpack-for-heroku/
 
 ## Configuration
 
